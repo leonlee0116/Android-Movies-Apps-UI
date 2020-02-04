@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Movies Mobile Apps</string>
+    <string name="title_activity_view_movie">ViewMovie</string>
+</resources>
