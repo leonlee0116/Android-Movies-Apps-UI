@@ -10,3 +10,7 @@ A modern design of Android template which is ready to use.
 ## Screenshots
 
 ![Imgur](https://i.imgur.com/yyidUcwl.jpg)
+
+## Dependencies
+
+[Glide](https://github.com/bumptech/glide) - For image loading from url
