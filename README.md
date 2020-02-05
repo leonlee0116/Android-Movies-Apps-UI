@@ -9,4 +9,4 @@ https://dribbble.com/shots/6724418-Movie-app
 
 ## Screenshots
 
-[Imgur](https://i.imgur.com/yyidUcw.jpg)
+![Imgur](https://i.imgur.com/yyidUcwl.jpg)
