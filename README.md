@@ -9,4 +9,4 @@ https://dribbble.com/shots/6724418-Movie-app
 
 ## Screenshots
 
-![GitHub Logo](https://drive.google.com/uc?export=view&id=1UNkNDA2hWh7zYn8HtqzZfvnMoGugaVNW)
+[Imgur](https://i.imgur.com/yyidUcw.jpg)
