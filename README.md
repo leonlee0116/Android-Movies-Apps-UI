@@ -5,7 +5,7 @@ A modern design of Android template which is ready to use.
 
 ## Inspired and Designed by
 
-https://dribbble.com/shots/6724418-Movie-app
+[Movie app by Balance] https://dribbble.com/shots/6724418-Movie-app
 
 ## Screenshots
 
