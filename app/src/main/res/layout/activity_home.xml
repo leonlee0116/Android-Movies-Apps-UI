@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
+    android:background="#f8f8f8"
     tools:context=".Home">
 
     <View
@@ -91,22 +91,64 @@
                     <ImageView
                         android:id="@+id/iv1"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
-
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:tint="#6F000000" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginLeft="25dp"
-                        android:layout_marginTop="25dp"
-                        android:orientation="vertical">
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:layout_weight="2"
+                            android:text="Black Panther (2017)"
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:textSize="20dp" />
 
                         <TextView
                             android:layout_width="170dp"
                             android:layout_height="wrap_content"
-                            android:text="Black Panther"
-                            android:textColor="#fff"
-                            android:textSize="20dp" />
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:text="1h 44min"
+                            android:textColor="#f8f8f8"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Action"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Sci-Fi"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+                        </LinearLayout>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
 
@@ -127,7 +169,65 @@
                     <ImageView
                         android:id="@+id/iv2"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:tint="#6F000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Hobbs &amp; Shawn (2019)"
+                            android:textColor="#fff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:text="2h 13min"
+                            android:textColor="#f8f8f8"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Action"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Adventure"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </FrameLayout>
 
@@ -146,7 +246,65 @@
                     <ImageView
                         android:id="@+id/iv3"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" />
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:tint="#6F000000" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="vertical"
+                        android:weightSum="5">
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="2"
+                            android:text="Men In Black (2019)"
+                            android:textColor="#fff"
+                            android:textSize="20dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="170dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dp"
+                            android:layout_weight="1"
+                            android:text="1h 52min"
+                            android:textColor="#f8f8f8"
+                            android:textSize="16dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Sci-Fi"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/chips_background"
+                                android:paddingLeft="10dp"
+                                android:paddingRight="10dp"
+                                android:text="Thriller"
+                                android:textColor="#f8f8f8"
+                                android:textSize="12dp" />
+                        </LinearLayout>
+                    </LinearLayout>
                 </androidx.cardview.widget.CardView>
             </FrameLayout>
         </LinearLayout>
