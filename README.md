@@ -4,11 +4,6 @@
 A modern design of Android template which is ready to use. This project was developed by my own for study and self-improvement purpose. This project does not include functions, but you can clone this project and modify or add any functions according your needs.
 
 
-## Inspired and Designed by
-
-[Movie app by Balance](https://dribbble.com/shots/6724418-Movie-app)
-
-
 ## Screenshots
 
 ![Imgur](https://i.imgur.com/yyidUcwl.jpg)
@@ -25,7 +20,12 @@ A modern design of Android template which is ready to use. This project was deve
 [Glide](https://github.com/bumptech/glide) - For image loading from url
 
 
-## Support me
+## Reference
+
+[Movie app by Balance](https://dribbble.com/shots/6724418-Movie-app)
+
+
+## Buy me a coffee
 
 If you like my work, you can reward me a cup of ice latte.
 
