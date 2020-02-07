@@ -14,6 +14,12 @@ A modern design of Android template which is ready to use. This project was deve
 ![Imgur](https://i.imgur.com/yyidUcwl.jpg)
 
 
+## Coming Soon
+
+* Search Page
+* Movie Info Page
+
+
 ## Dependencies
 
 [Glide](https://github.com/bumptech/glide) - For image loading from url
