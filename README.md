@@ -1,4 +1,4 @@
-# Android-Awesome-Template-Movies-Mobile-Apps
+# Android Awesome UI - Movies Apps
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A modern design of Android template which is ready to use. This project was developed by my own for study and self-improvement purpose.
