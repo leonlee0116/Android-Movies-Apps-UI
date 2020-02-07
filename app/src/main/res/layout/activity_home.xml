@@ -234,8 +234,8 @@
             <FrameLayout
                 android:layout_width="350dp"
                 android:layout_height="200dp"
-                android:layout_marginEnd="20dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
                 android:background="@drawable/rounded_corner">
 
                 <androidx.cardview.widget.CardView
