@@ -118,7 +118,7 @@
                             android:layout_marginTop="15dp"
                             android:layout_weight="1"
                             android:text="1h 44min"
-                            android:textColor="#f8f8f8"
+                            android:textColor="#d3d3d3"
                             android:textSize="16dp" />
 
                         <LinearLayout

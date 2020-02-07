@@ -1,30 +1,33 @@
 package com.leonlee.moviesapps;
 
 import android.os.Bundle;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
+import android.view.View;
+import android.widget.ImageView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
 
-import android.view.View;
+import com.bumptech.glide.Glide;
 
 public class ViewMovie extends AppCompatActivity {
+
+    private ImageView iv1, iv2, iv_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_movie);
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
+        iv1 = findViewById(R.id.iv1);
+        iv2 = findViewById(R.id.iv2);
+        iv_back = findViewById(R.id.iv_back);
+
+        Glide.with(this).load("https://assets.2ser.com/wp-content/aws/uploads/2018/02/17204756/BlackPanther.jpg").into(iv1);
+        Glide.with(this).load("https://is5-ssl.mzstatic.com/image/thumb/Video124/v4/09/dc/bf/09dcbfa8-b7ba-26e1-ab77-a62155a500e6/source/600x600bb.jpg").into(iv2);
+
+        iv_back.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+            public void onClick(View v) {
+                finish();
             }
         });
     }
