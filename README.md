@@ -17,4 +17,5 @@ A modern design of Android template which is ready to use. This project was deve
 
 ## A cup of coffee
 If you like my work, you can reward me a cup of ice latte.
+
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/leonlee0116)
