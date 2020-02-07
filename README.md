@@ -6,7 +6,7 @@ A modern design of Android template which is ready to use. This project was deve
 
 ## Screenshots
 
-![Imgur](https://i.imgur.com/yyidUcwl.jpg)
+![Imgur](https://i.imgur.com/x1T7ulBl.png)
 
 
 ## Coming Soon
